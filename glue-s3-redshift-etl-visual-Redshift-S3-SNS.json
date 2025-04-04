@@ -1,0 +1,1725 @@
+{
+	"jobConfig": {
+		"name": "glue-s3-redshift-etl-visual-Redshift-S3-SNS",
+		"description": "visual etl for connecting  to S3 and loading to Redshift",
+		"role": "arn:aws:iam::019824224614:role/AWSGlueRedshiftSecretRole",
+		"command": "glueetl",
+		"version": "5.0",
+		"runtime": null,
+		"workerType": "G.1X",
+		"numberOfWorkers": 3,
+		"maxCapacity": 3,
+		"jobRunQueuingEnabled": false,
+		"maxRetries": 1,
+		"timeout": 60,
+		"maxConcurrentRuns": 1,
+		"delay": 30,
+		"security": "none",
+		"scriptName": "glue-s3-redshift-etl-visual-Redshift-S3-SNS.py",
+		"scriptLocation": "s3://aws-glue-assets-019824224614-us-east-1/scripts/",
+		"language": "python-3",
+		"spark": true,
+		"sparkConfiguration": "standard",
+		"jobParameters": [
+			{
+				"key": "--Connections",
+				"value": "glue-s3-redshift-connection",
+				"existing": false
+			}
+		],
+		"tags": [],
+		"jobMode": "VISUAL_MODE",
+		"createdOn": "2025-04-02T16:44:23.797Z",
+		"developerMode": false,
+		"connectionsList": [
+			"Redshift-connection-provisioned",
+			"glue-s3-redshift-connection"
+		],
+		"temporaryDirectory": "s3://aws-glue-assets-019824224614-us-east-1/temporary/",
+		"etlAutoScaling": true,
+		"logging": true,
+		"glueHiveMetastore": true,
+		"etlAutoTuning": true,
+		"metrics": true,
+		"observabilityMetrics": true,
+		"bookmark": "job-bookmark-enable",
+		"sparkPath": "s3://aws-glue-assets-019824224614-us-east-1/sparkHistoryLogs/",
+		"flexExecution": false,
+		"minFlexWorkers": null,
+		"maintenanceWindow": null
+	},
+	"dag": {
+		"node-1743500218874": {
+			"nodeId": "node-1743500218874",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [],
+			"name": "Amazon S3",
+			"generatedNodeName": "AmazonS3_node1743500218874",
+			"classification": "DataSource",
+			"type": "S3",
+			"isCatalog": false,
+			"format": "csv",
+			"paths": [
+				"s3://kaggle-dataset-019824224614/raw/"
+			],
+			"compressionType": null,
+			"exclusions": [],
+			"groupFiles": null,
+			"groupSize": null,
+			"recurse": true,
+			"maxBand": null,
+			"maxFilesInBand": null,
+			"additionalOptions": {
+				"boundedSize": null,
+				"boundedFiles": null,
+				"enableSamplePath": false,
+				"samplePath": "s3://kaggle-dataset-019824224614/raw/Telco_customer_churn.csv",
+				"boundedOption": null
+			},
+			"separator": ",",
+			"escaper": "",
+			"quoteChar": "\"",
+			"multiline": null,
+			"withHeader": true,
+			"writeHeader": null,
+			"skipFirst": null,
+			"optimizePerformance": false,
+			"outputSchemas": [
+				[
+					{
+						"key": "customerid",
+						"fullPath": [
+							"customerid"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "count",
+						"fullPath": [
+							"count"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "country",
+						"fullPath": [
+							"country"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "state",
+						"fullPath": [
+							"state"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "city",
+						"fullPath": [
+							"city"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "zip code",
+						"fullPath": [
+							"zip code"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "lat long",
+						"fullPath": [
+							"lat long"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "latitude",
+						"fullPath": [
+							"latitude"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "longitude",
+						"fullPath": [
+							"longitude"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "gender",
+						"fullPath": [
+							"gender"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "senior citizen",
+						"fullPath": [
+							"senior citizen"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "partner",
+						"fullPath": [
+							"partner"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "dependents",
+						"fullPath": [
+							"dependents"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "tenure months",
+						"fullPath": [
+							"tenure months"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "phone service",
+						"fullPath": [
+							"phone service"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "multiple lines",
+						"fullPath": [
+							"multiple lines"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "internet service",
+						"fullPath": [
+							"internet service"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "online security",
+						"fullPath": [
+							"online security"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "online backup",
+						"fullPath": [
+							"online backup"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "device protection",
+						"fullPath": [
+							"device protection"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "tech support",
+						"fullPath": [
+							"tech support"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "streaming tv",
+						"fullPath": [
+							"streaming tv"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "streaming movies",
+						"fullPath": [
+							"streaming movies"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "contract",
+						"fullPath": [
+							"contract"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "paperless billing",
+						"fullPath": [
+							"paperless billing"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "payment method",
+						"fullPath": [
+							"payment method"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "monthly charges",
+						"fullPath": [
+							"monthly charges"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "total charges",
+						"fullPath": [
+							"total charges"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn label",
+						"fullPath": [
+							"churn label"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn value",
+						"fullPath": [
+							"churn value"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn score",
+						"fullPath": [
+							"churn score"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "cltv",
+						"fullPath": [
+							"cltv"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn reason",
+						"fullPath": [
+							"churn reason"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "ingestion_date",
+						"fullPath": [
+							"ingestion_date"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					}
+				]
+			],
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1743505539671": {
+			"nodeId": "node-1743505539671",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1743503694325"
+			],
+			"name": "Select From Collection - collect load date",
+			"generatedNodeName": "SelectFromCollectioncollectloaddate_node1743505539671",
+			"classification": "Transform",
+			"type": "SelectFromCollection",
+			"index": 0,
+			"parentsValid": true,
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1743500646591": {
+			"nodeId": "node-1743500646591",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1743505539671"
+			],
+			"name": "Amazon Redshift",
+			"generatedNodeName": "AmazonRedshift_node1743500646591",
+			"classification": "DataSink",
+			"type": "AmazonRedshift",
+			"streamingBatchInterval": 100,
+			"data": {
+				"accessType": "connection",
+				"sourceType": "table",
+				"connection": {
+					"value": "Redshift-connection-provisioned",
+					"label": "Redshift-connection-provisioned",
+					"description": "No description available. Version: 2"
+				},
+				"schema": {
+					"value": "public",
+					"label": "public",
+					"description": null
+				},
+				"catalogDatabase": null,
+				"catalogRedshiftTable": null,
+				"catalogRedshiftSchema": null,
+				"table": {
+					"value": "customer_churn_optimized",
+					"label": "customer_churn_optimized",
+					"description": null
+				},
+				"catalogTable": null,
+				"tempDir": "s3://kaggle-dataset-019824224614/temp/",
+				"iamRole": {
+					"value": null,
+					"label": "AWSGlueRedshiftSecretRole",
+					"description": "Allows Glue to call AWS services on your behalf. "
+				},
+				"sampleQuery": null,
+				"preAction": null,
+				"postAction": null,
+				"action": "append",
+				"tableSchema": [
+					{
+						"value": "customerid",
+						"label": "customerid",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "country",
+						"label": "country",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "state",
+						"label": "state",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "city",
+						"label": "city",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "zip_code",
+						"label": "zip_code",
+						"description": "INTEGER"
+					},
+					{
+						"value": "lat_long",
+						"label": "lat_long",
+						"description": "DECIMAL"
+					},
+					{
+						"value": "latitude",
+						"label": "latitude",
+						"description": "DECIMAL"
+					},
+					{
+						"value": "longitude",
+						"label": "longitude",
+						"description": "DECIMAL"
+					},
+					{
+						"value": "gender",
+						"label": "gender",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "senior_citizen",
+						"label": "senior_citizen",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "partner",
+						"label": "partner",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "dependents",
+						"label": "dependents",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "tenure_months",
+						"label": "tenure_months",
+						"description": "INTEGER"
+					},
+					{
+						"value": "phone_service",
+						"label": "phone_service",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "multiple_lines",
+						"label": "multiple_lines",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "internet_service",
+						"label": "internet_service",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "online_security",
+						"label": "online_security",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "online_backup",
+						"label": "online_backup",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "device_protection",
+						"label": "device_protection",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "tech_support",
+						"label": "tech_support",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "streaming_tv",
+						"label": "streaming_tv",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "streaming_movies",
+						"label": "streaming_movies",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "contract",
+						"label": "contract",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "paperless_billing",
+						"label": "paperless_billing",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "payment_method",
+						"label": "payment_method",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "monthly_charges",
+						"label": "monthly_charges",
+						"description": "DECIMAL"
+					},
+					{
+						"value": "total_charges",
+						"label": "total_charges",
+						"description": "DECIMAL"
+					},
+					{
+						"value": "churn_label",
+						"label": "churn_label",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "churn_value",
+						"label": "churn_value",
+						"description": "INTEGER"
+					},
+					{
+						"value": "churn_score",
+						"label": "churn_score",
+						"description": "INTEGER"
+					},
+					{
+						"value": "cltv",
+						"label": "cltv",
+						"description": "INTEGER"
+					},
+					{
+						"value": "churn_reason",
+						"label": "churn_reason",
+						"description": "VARCHAR"
+					},
+					{
+						"value": "ingestion_date",
+						"label": "ingestion_date",
+						"description": "DATE"
+					},
+					{
+						"value": "load_date",
+						"label": "load_date",
+						"description": "DATE"
+					}
+				],
+				"selectedColumns": [
+					{
+						"value": "customerid",
+						"label": "customerid",
+						"description": "VARCHAR"
+					}
+				],
+				"crawlerConnection": null,
+				"tablePrefix": null,
+				"upsert": true,
+				"mergeAction": "simple",
+				"mergeWhenMatched": "update",
+				"mergeWhenNotMatched": "insert",
+				"mergeClause": null,
+				"stagingTable": "public.customer_churn_optimized_temp_jzqchl",
+				"advancedOptions": []
+			},
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1743500227998": {
+			"nodeId": "node-1743500227998",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1743500218874"
+			],
+			"name": "Change Schema",
+			"generatedNodeName": "ChangeSchema_node1743500227998",
+			"classification": "Transform",
+			"type": "ApplyMapping",
+			"mapping": [
+				{
+					"toKey": "customerid",
+					"fromPath": [
+						"customerid"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "count",
+					"fromPath": [
+						"count"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": true,
+					"children": null
+				},
+				{
+					"toKey": "country",
+					"fromPath": [
+						"country"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "state",
+					"fromPath": [
+						"state"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "city",
+					"fromPath": [
+						"city"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "zip_code",
+					"fromPath": [
+						"zip code"
+					],
+					"toType": "int",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "lat_long",
+					"fromPath": [
+						"lat long"
+					],
+					"toType": "decimal",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "latitude",
+					"fromPath": [
+						"latitude"
+					],
+					"toType": "decimal",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "longitude",
+					"fromPath": [
+						"longitude"
+					],
+					"toType": "decimal",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "gender",
+					"fromPath": [
+						"gender"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "senior_citizen",
+					"fromPath": [
+						"senior citizen"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "partner",
+					"fromPath": [
+						"partner"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "dependents",
+					"fromPath": [
+						"dependents"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "tenure_months",
+					"fromPath": [
+						"tenure months"
+					],
+					"toType": "int",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "phone_service",
+					"fromPath": [
+						"phone service"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "multiple_lines",
+					"fromPath": [
+						"multiple lines"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "internet_service",
+					"fromPath": [
+						"internet service"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "online_security",
+					"fromPath": [
+						"online security"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "online_backup",
+					"fromPath": [
+						"online backup"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "device_protection",
+					"fromPath": [
+						"device protection"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "tech_support",
+					"fromPath": [
+						"tech support"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "streaming_tv",
+					"fromPath": [
+						"streaming tv"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "streaming_movies",
+					"fromPath": [
+						"streaming movies"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "contract",
+					"fromPath": [
+						"contract"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "paperless_billing",
+					"fromPath": [
+						"paperless billing"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "payment_method",
+					"fromPath": [
+						"payment method"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "monthly_charges",
+					"fromPath": [
+						"monthly charges"
+					],
+					"toType": "decimal",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "total_charges",
+					"fromPath": [
+						"total charges"
+					],
+					"toType": "decimal",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "churn_label",
+					"fromPath": [
+						"churn label"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "churn_value",
+					"fromPath": [
+						"churn value"
+					],
+					"toType": "int",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "churn_score",
+					"fromPath": [
+						"churn score"
+					],
+					"toType": "int",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "cltv",
+					"fromPath": [
+						"cltv"
+					],
+					"toType": "int",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "churn_reason",
+					"fromPath": [
+						"churn reason"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				},
+				{
+					"toKey": "ingestion_date",
+					"fromPath": [
+						"ingestion_date"
+					],
+					"toType": "date",
+					"fromType": "string",
+					"dropped": false,
+					"children": null
+				}
+			],
+			"parentsValid": true,
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1743503694325": {
+			"nodeId": "node-1743503694325",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1743500227998"
+			],
+			"name": "Custom Transform - add load_date",
+			"generatedNodeName": "CustomTransformaddload_date_node1743503694325",
+			"classification": "Transform",
+			"type": "CustomCode",
+			"code": "import boto3\nimport sys\nfrom pyspark.sql.functions import current_date, to_date, col\nfrom awsglue.dynamicframe import DynamicFrame, DynamicFrameCollection\n\n\n# Define expected schema\nexpected = set([\n    \"customerid\", \"country\", \"state\", \"city\", \"zip_code\", \"lat_long\", \"latitude\", \"longitude\",\n    \"gender\", \"senior_citizen\", \"partner\", \"dependents\", \"tenure_months\", \"phone_service\",\n    \"multiple_lines\", \"internet_service\", \"online_security\", \"online_backup\", \"device_protection\",\n    \"tech_support\", \"streaming_tv\", \"streaming_movies\", \"contract\", \"paperless_billing\",\n    \"payment_method\", \"monthly_charges\", \"total_charges\", \"churn_label\", \"churn_value\",\n    \"churn_score\", \"cltv\", \"churn_reason\", \"ingestion_date\"\n])\n\n\n# Use the correct input variable (dfc)\ninput_dyf = dfc.select(list(dfc.keys())[0])\n\n# Convert to Spark DataFrame\ndf = input_dyf.toDF()\n\n# Validate schema\nactual = set(df.columns)\nmissing = expected - actual\nextra = actual - expected\n\nif missing or extra:\n    message = \"\"\n    if missing:\n        message += f\"❌ Missing Columns:\\n{', '.join(sorted(missing))}\\n\"\n    if extra:\n        message += f\"⚠️ Unexpected Columns:\\n{', '.join(sorted(extra))}\\n\"\n\n    # Send SNS notification\n    boto3.client(\"sns\").publish(\n        TopicArn=\"arn:aws:sns:us-east-1:019824224614:glue-s3-redshift-customer-churn-topic\",\n        Subject=\"🛑 GLUE SCHEMA VALIDATION ALERT\",\n        Message=message\n    )\n\n    # Fail job if required columns are missing\n    if missing:\n        raise Exception(\"Job Failed due to missing required columns.\")\n\n\n# Convert ingestion_date to format \"yyyy-MM-dd\" format\ndf = df.withColumn(\"ingestion_date\", to_date(col(\"ingestion_date\"), \"yyyy-MM-dd\"))\n\n# Add load_date column\ndf = df.withColumn(\"load_date\", current_date())\n\n# Convert back to DynamicFrame\nupdated_dyf = DynamicFrame.fromDF(df, glueContext, \"UpdatedFrame\")\n\n# Return as a DynamicFrameCollection\nreturn DynamicFrameCollection({\"output\": updated_dyf}, glueContext)",
+			"className": "data_load",
+			"outputSchemas": [
+				[
+					{
+						"key": "customerid",
+						"fullPath": [
+							"customerid"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "country",
+						"fullPath": [
+							"country"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "state",
+						"fullPath": [
+							"state"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "city",
+						"fullPath": [
+							"city"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "zip_code",
+						"fullPath": [
+							"zip_code"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "lat_long",
+						"fullPath": [
+							"lat_long"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "latitude",
+						"fullPath": [
+							"latitude"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "longitude",
+						"fullPath": [
+							"longitude"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "gender",
+						"fullPath": [
+							"gender"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "senior_citizen",
+						"fullPath": [
+							"senior_citizen"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "partner",
+						"fullPath": [
+							"partner"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "dependents",
+						"fullPath": [
+							"dependents"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "tenure_months",
+						"fullPath": [
+							"tenure_months"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "phone_service",
+						"fullPath": [
+							"phone_service"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "multiple_lines",
+						"fullPath": [
+							"multiple_lines"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "internet_service",
+						"fullPath": [
+							"internet_service"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "online_security",
+						"fullPath": [
+							"online_security"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "online_backup",
+						"fullPath": [
+							"online_backup"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "device_protection",
+						"fullPath": [
+							"device_protection"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "tech_support",
+						"fullPath": [
+							"tech_support"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "streaming_tv",
+						"fullPath": [
+							"streaming_tv"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "streaming_movies",
+						"fullPath": [
+							"streaming_movies"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "contract",
+						"fullPath": [
+							"contract"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "paperless_billing",
+						"fullPath": [
+							"paperless_billing"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "payment_method",
+						"fullPath": [
+							"payment_method"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "monthly_charges",
+						"fullPath": [
+							"monthly_charges"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "total_charges",
+						"fullPath": [
+							"total_charges"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn_label",
+						"fullPath": [
+							"churn_label"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn_value",
+						"fullPath": [
+							"churn_value"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn_score",
+						"fullPath": [
+							"churn_score"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "cltv",
+						"fullPath": [
+							"cltv"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn_reason",
+						"fullPath": [
+							"churn_reason"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "ingestion_date",
+						"fullPath": [
+							"ingestion_date"
+						],
+						"type": "date",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "load_date",
+						"fullPath": [
+							"load_date"
+						],
+						"type": "date",
+						"glueStudioType": null,
+						"children": null
+					}
+				]
+			],
+			"parentsValid": true,
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1743541972900": {
+			"nodeId": "node-1743541972900",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1743500227998"
+			],
+			"name": "Custom Transform - Partition",
+			"generatedNodeName": "CustomTransformPartition_node1743541972900",
+			"classification": "Transform",
+			"type": "CustomCode",
+			"code": "import boto3\nimport sys\nfrom pyspark.sql.functions import current_date, col, year, month, to_date\nfrom awsglue.dynamicframe import DynamicFrame, DynamicFrameCollection\n\n # Define expected schema\nexpected = set([\n    \"customerid\", \"country\", \"state\", \"city\", \"zip_code\", \"lat_long\", \"latitude\", \"longitude\",\n    \"gender\", \"senior_citizen\", \"partner\", \"dependents\", \"tenure_months\", \"phone_service\",\n    \"multiple_lines\", \"internet_service\", \"online_security\", \"online_backup\", \"device_protection\",\n    \"tech_support\", \"streaming_tv\", \"streaming_movies\", \"contract\", \"paperless_billing\",\n    \"payment_method\", \"monthly_charges\", \"total_charges\", \"churn_label\", \"churn_value\",\n    \"churn_score\", \"cltv\", \"churn_reason\", \"ingestion_date\"\n])\n\n# Get the first DynamicFrame from collection\ninput_dyf = dfc.select(list(dfc.keys())[0])\ndf = input_dyf.toDF()\n\n# Validate schema\nactual = set(df.columns)\nmissing = expected - actual\nextra = actual - expected\n\nif missing or extra:\n    message = \"\"\n    if missing:\n        message += f\"❌ Missing Columns:\\n{', '.join(sorted(missing))}\\n\"\n    if extra:\n        message += f\"⚠️ Unexpected Columns:\\n{', '.join(sorted(extra))}\\n\"\n\n    # Send SNS notification\n    boto3.client(\"sns\").publish(\n        TopicArn=\"arn:aws:sns:us-east-1:019824224614:glue-s3-redshift-customer-churn-topic\",\n        Subject=\"🛑 GLUE SCHEMA VALIDATION ALERT\",\n        Message=message\n    )\n\n    # Fail job if required columns are missing\n    if missing:\n        raise Exception(\"Job Failed due to missing required columns.\")\n\n\n# Ensure ingestion_date is in date format before extracting year/month\ndf = df.withColumn(\"ingestion_date\", to_date(col(\"ingestion_date\")))\n\n# Add partitioning columns\ndf = df.withColumn(\"year\", year(col(\"ingestion_date\")))\ndf = df.withColumn(\"month\", month(col(\"ingestion_date\")))\n\n# Convert back to DynamicFrame\nenriched_dyf = DynamicFrame.fromDF(df, glueContext, \"EnrichedPartitionedDF\")\n\n# Return wrapped in DynamicFrameCollection with 'output' key\nreturn DynamicFrameCollection({\"output\": enriched_dyf}, glueContext)    ",
+			"className": "partition_date",
+			"outputSchemas": [
+				[
+					{
+						"key": "customerid",
+						"fullPath": [
+							"customerid"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "country",
+						"fullPath": [
+							"country"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "state",
+						"fullPath": [
+							"state"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "city",
+						"fullPath": [
+							"city"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "zip_code",
+						"fullPath": [
+							"zip_code"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "lat_long",
+						"fullPath": [
+							"lat_long"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "latitude",
+						"fullPath": [
+							"latitude"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "longitude",
+						"fullPath": [
+							"longitude"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "gender",
+						"fullPath": [
+							"gender"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "senior_citizen",
+						"fullPath": [
+							"senior_citizen"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "partner",
+						"fullPath": [
+							"partner"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "dependents",
+						"fullPath": [
+							"dependents"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "tenure_months",
+						"fullPath": [
+							"tenure_months"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "phone_service",
+						"fullPath": [
+							"phone_service"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "multiple_lines",
+						"fullPath": [
+							"multiple_lines"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "internet_service",
+						"fullPath": [
+							"internet_service"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "online_security",
+						"fullPath": [
+							"online_security"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "online_backup",
+						"fullPath": [
+							"online_backup"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "device_protection",
+						"fullPath": [
+							"device_protection"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "tech_support",
+						"fullPath": [
+							"tech_support"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "streaming_tv",
+						"fullPath": [
+							"streaming_tv"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "streaming_movies",
+						"fullPath": [
+							"streaming_movies"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "contract",
+						"fullPath": [
+							"contract"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "paperless_billing",
+						"fullPath": [
+							"paperless_billing"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "payment_method",
+						"fullPath": [
+							"payment_method"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "monthly_charges",
+						"fullPath": [
+							"monthly_charges"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "total_charges",
+						"fullPath": [
+							"total_charges"
+						],
+						"type": "decimal",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn_label",
+						"fullPath": [
+							"churn_label"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn_value",
+						"fullPath": [
+							"churn_value"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn_score",
+						"fullPath": [
+							"churn_score"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "cltv",
+						"fullPath": [
+							"cltv"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "churn_reason",
+						"fullPath": [
+							"churn_reason"
+						],
+						"type": "string",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "ingestion_date",
+						"fullPath": [
+							"ingestion_date"
+						],
+						"type": "date",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "year",
+						"fullPath": [
+							"year"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					},
+					{
+						"key": "month",
+						"fullPath": [
+							"month"
+						],
+						"type": "int",
+						"glueStudioType": null,
+						"children": null
+					}
+				]
+			],
+			"parentsValid": true,
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1743542109183": {
+			"nodeId": "node-1743542109183",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1743541972900"
+			],
+			"name": "Select From Collection - Partition",
+			"generatedNodeName": "SelectFromCollectionPartition_node1743542109183",
+			"classification": "Transform",
+			"type": "SelectFromCollection",
+			"index": 0,
+			"parentsValid": true,
+			"calculatedType": "",
+			"codeGenVersion": 2
+		},
+		"node-1743542157636": {
+			"nodeId": "node-1743542157636",
+			"dataPreview": false,
+			"previewAmount": 0,
+			"inputs": [
+				"node-1743542109183"
+			],
+			"name": "Amazon S3 - partition",
+			"generatedNodeName": "AmazonS3partition_node1743542157636",
+			"classification": "DataSink",
+			"type": "S3",
+			"streamingBatchInterval": 100,
+			"format": "glueparquet",
+			"compression": "snappy",
+			"path": "s3://kaggle-dataset-019824224614/staging/",
+			"partitionKeys": [
+				"year",
+				"month"
+			],
+			"schemaChangePolicy": {
+				"enableUpdateCatalog": true,
+				"updateBehavior": "UPDATE_IN_DATABASE",
+				"database": "customer-churn-s3-glue-database-yml",
+				"table": "customer-churn-partitioned-table"
+			},
+			"updateCatalogOptions": "schemaAndPartitions",
+			"autoDataQuality": {
+				"isEnabled": true,
+				"evaluationContext": "EvaluateDataQuality_node1743541939216"
+			},
+			"calculatedType": "",
+			"codeGenVersion": 2
+		}
+	},
+	"hasBeenSaved": false,
+	"usageProfileName": null
+}
