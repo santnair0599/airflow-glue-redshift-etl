@@ -1,0 +1,197 @@
+[2025-03-26T17:13:26.374+0000] {processor.py:186} INFO - Started process (PID=6273) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:13:26.376+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:13:26.378+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:13:26.386+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:13:26.491+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.490+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_task_group
+[2025-03-26T17:13:26.506+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.506+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:example_task_group
+[2025-03-26T17:13:26.517+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.517+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_task_group
+[2025-03-26T17:13:26.536+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.535+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2025-03-26T17:13:26.547+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.547+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2025-03-26T17:13:26.558+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.558+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2025-03-26T17:13:26.570+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.570+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2025-03-26T17:13:26.570+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:13:26.579+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.579+0000] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2025-03-26T17:13:26.579+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:26.579+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:13:26.601+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.231 seconds
+[2025-03-26T17:14:34.387+0000] {processor.py:186} INFO - Started process (PID=6330) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:14:34.389+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:14:34.391+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:34.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:14:34.399+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:14:34.416+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:34.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:14:34.427+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:34.427+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:14:34.452+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2025-03-26T17:15:29.486+0000] {processor.py:186} INFO - Started process (PID=6393) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:15:29.488+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:15:29.490+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:29.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:15:29.499+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:15:29.515+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:29.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:15:29.526+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:29.526+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:15:29.550+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2025-03-26T17:16:22.017+0000] {processor.py:186} INFO - Started process (PID=6446) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:16:22.018+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:16:22.020+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:22.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:16:22.028+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:16:22.046+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:22.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:16:22.058+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:22.057+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:16:22.080+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2025-03-26T17:17:16.174+0000] {processor.py:186} INFO - Started process (PID=6504) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:17:16.176+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:17:16.178+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:16.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:17:16.186+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:17:16.203+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:16.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:17:16.214+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:16.214+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:17:16.237+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2025-03-26T17:18:07.257+0000] {processor.py:186} INFO - Started process (PID=6558) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:18:07.258+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:18:07.260+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:07.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:18:07.269+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:18:07.285+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:07.285+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:18:07.296+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:07.296+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:18:07.320+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2025-03-26T17:19:02.386+0000] {processor.py:186} INFO - Started process (PID=6614) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:19:02.388+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:19:02.390+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:02.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:19:02.400+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:19:02.418+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:02.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:19:02.431+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:02.431+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:19:02.458+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2025-03-26T17:20:02.347+0000] {processor.py:186} INFO - Started process (PID=6675) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:20:02.348+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:20:02.350+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:02.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:20:02.362+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:20:02.379+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:02.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:20:02.393+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:02.392+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:20:02.418+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.076 seconds
+[2025-03-26T17:20:59.096+0000] {processor.py:186} INFO - Started process (PID=6733) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:20:59.098+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:20:59.100+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:59.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:20:59.109+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:20:59.125+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:59.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:20:59.137+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:59.137+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:20:59.158+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2025-03-26T17:21:52.574+0000] {processor.py:186} INFO - Started process (PID=6787) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:21:52.576+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:21:52.579+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:52.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:21:52.587+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:21:52.603+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:52.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:21:52.615+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:52.614+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:21:52.637+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2025-03-26T17:22:44.422+0000] {processor.py:186} INFO - Started process (PID=6841) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:22:44.424+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:22:44.426+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:44.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:22:44.435+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:22:44.452+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:44.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:22:44.464+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:44.464+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:22:44.487+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2025-03-26T17:23:36.076+0000] {processor.py:186} INFO - Started process (PID=6894) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:23:36.078+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:23:36.081+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:36.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:23:36.090+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:23:36.105+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:36.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:23:36.116+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:36.116+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:23:36.140+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2025-03-26T17:24:27.084+0000] {processor.py:186} INFO - Started process (PID=6947) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:24:27.085+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:24:27.088+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:27.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:24:27.098+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:24:27.115+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:27.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:24:27.126+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:27.126+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:24:27.148+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2025-03-26T17:25:16.743+0000] {processor.py:186} INFO - Started process (PID=7003) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:25:16.745+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:25:16.748+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:16.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:25:16.757+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:25:16.773+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:16.773+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:25:16.785+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:16.785+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:25:16.808+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2025-03-26T17:26:05.252+0000] {processor.py:186} INFO - Started process (PID=7054) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:26:05.253+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:26:05.256+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:05.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:26:05.265+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:26:05.282+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:05.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:26:05.294+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:05.294+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:26:05.317+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2025-03-26T17:26:57.146+0000] {processor.py:186} INFO - Started process (PID=7106) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:26:57.147+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:26:57.150+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:57.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:26:57.160+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:26:57.176+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:57.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:26:57.189+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:57.189+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:26:57.213+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.072 seconds
+[2025-03-26T17:27:49.781+0000] {processor.py:186} INFO - Started process (PID=7206) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:27:49.783+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:27:49.786+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:49.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:27:49.795+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:27:49.812+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:49.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:27:49.824+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:49.824+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:27:49.846+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2025-03-26T17:28:40.333+0000] {processor.py:186} INFO - Started process (PID=7260) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:28:40.334+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:28:40.337+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:40.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:28:40.346+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:28:40.361+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:40.361+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:28:40.374+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:40.373+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:28:40.395+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2025-03-26T17:29:29.703+0000] {processor.py:186} INFO - Started process (PID=7312) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:29:29.705+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:29:29.708+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:29.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:29:29.716+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:29:29.733+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:29.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:29:29.745+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:29.745+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:29:29.766+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2025-03-26T17:30:18.937+0000] {processor.py:186} INFO - Started process (PID=7368) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:30:18.939+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:30:18.942+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:18.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:30:18.951+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:30:18.967+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:18.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:30:18.980+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:18.979+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:30:19.003+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2025-03-26T17:31:09.302+0000] {processor.py:186} INFO - Started process (PID=7419) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:31:09.304+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:31:09.307+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:09.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:31:09.315+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:31:09.331+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:09.331+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:31:09.342+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:09.342+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:31:09.365+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2025-03-26T17:32:00.212+0000] {processor.py:186} INFO - Started process (PID=7472) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:32:00.213+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:32:00.216+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:00.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:32:00.226+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:32:00.243+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:00.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:32:00.255+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:00.255+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:32:00.278+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.072 seconds
+[2025-03-26T17:32:51.931+0000] {processor.py:186} INFO - Started process (PID=7565) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:32:51.932+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:32:51.936+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:51.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:32:51.945+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:32:51.962+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:51.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:32:51.973+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:51.973+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:32:51.995+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2025-03-26T17:33:43.868+0000] {processor.py:186} INFO - Started process (PID=7619) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:33:43.870+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:33:43.872+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:43.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:33:43.882+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:33:43.899+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:43.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:33:43.911+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:43.911+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:33:43.932+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2025-03-26T17:34:34.561+0000] {processor.py:186} INFO - Started process (PID=7671) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:34:34.562+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:34:34.565+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:34.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:34:34.574+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:34:34.590+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:34.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:34:34.601+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:34.601+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:34:34.624+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2025-03-26T17:35:27.629+0000] {processor.py:186} INFO - Started process (PID=7732) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:35:27.631+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:35:27.634+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:27.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:35:27.644+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:35:27.660+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:27.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:35:27.672+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:27.672+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:35:27.694+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2025-03-26T17:36:21.352+0000] {processor.py:186} INFO - Started process (PID=7788) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:36:21.354+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-26T17:36:21.357+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:21.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:36:21.365+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-26T17:36:21.382+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:21.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:36:21.393+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:21.393+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-26T17:36:21.416+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds

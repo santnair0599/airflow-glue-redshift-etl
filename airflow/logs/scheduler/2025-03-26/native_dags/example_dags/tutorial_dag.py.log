@@ -1,0 +1,197 @@
+[2025-03-26T17:13:18.547+0000] {processor.py:186} INFO - Started process (PID=6267) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:13:18.547+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:13:18.549+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:13:18.557+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:13:18.660+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.660+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-03-26T17:13:18.673+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.673+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-03-26T17:13:18.683+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.682+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-03-26T17:13:18.699+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.699+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2025-03-26T17:13:18.709+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.709+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2025-03-26T17:13:18.718+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.718+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2025-03-26T17:13:18.727+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.727+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2025-03-26T17:13:18.727+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:13:18.738+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.738+0000] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2025-03-26T17:13:18.739+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:18.739+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:13:18.763+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.221 seconds
+[2025-03-26T17:14:28.651+0000] {processor.py:186} INFO - Started process (PID=6324) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:14:28.653+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:14:28.655+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:28.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:14:28.662+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:14:28.677+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:28.677+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:14:28.689+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:28.689+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:14:28.711+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-03-26T17:15:24.140+0000] {processor.py:186} INFO - Started process (PID=6387) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:15:24.141+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:15:24.143+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:24.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:15:24.150+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:15:24.165+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:24.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:15:24.177+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:24.176+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:15:24.197+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2025-03-26T17:16:15.731+0000] {processor.py:186} INFO - Started process (PID=6440) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:16:15.733+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:16:15.735+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:15.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:16:15.742+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:16:15.757+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:15.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:16:15.768+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:15.768+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:16:15.790+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-03-26T17:17:09.891+0000] {processor.py:186} INFO - Started process (PID=6498) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:17:09.893+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:17:09.895+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:09.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:17:09.902+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:17:09.918+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:09.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:17:09.929+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:09.929+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:17:09.951+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-03-26T17:18:02.716+0000] {processor.py:186} INFO - Started process (PID=6552) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:18:02.717+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:18:02.719+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:02.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:18:02.727+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:18:02.742+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:02.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:18:02.753+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:02.753+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:18:02.778+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2025-03-26T17:18:56.394+0000] {processor.py:186} INFO - Started process (PID=6607) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:18:56.396+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:18:56.398+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:56.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:18:56.406+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:18:56.420+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:56.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:18:56.431+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:56.430+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:18:56.453+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-03-26T17:19:56.170+0000] {processor.py:186} INFO - Started process (PID=6664) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:19:56.172+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:19:56.174+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:56.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:19:56.182+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:19:56.196+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:56.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:19:56.209+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:56.208+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:19:56.231+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-03-26T17:20:53.040+0000] {processor.py:186} INFO - Started process (PID=6727) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:20:53.042+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:20:53.044+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:53.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:20:53.052+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:20:53.067+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:53.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:20:53.079+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:53.079+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:20:53.102+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.068 seconds
+[2025-03-26T17:21:46.997+0000] {processor.py:186} INFO - Started process (PID=6781) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:21:46.998+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:21:47.000+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:47.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:21:47.010+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:21:47.027+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:47.026+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:21:47.039+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:47.039+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:21:47.061+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2025-03-26T17:22:38.684+0000] {processor.py:186} INFO - Started process (PID=6835) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:22:38.686+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:22:38.688+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:38.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:22:38.696+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:22:38.710+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:38.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:22:38.723+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:38.723+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:22:38.747+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.068 seconds
+[2025-03-26T17:23:30.337+0000] {processor.py:186} INFO - Started process (PID=6888) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:23:30.339+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:23:30.341+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:30.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:23:30.349+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:23:30.364+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:30.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:23:30.375+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:30.375+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:23:30.400+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2025-03-26T17:24:20.796+0000] {processor.py:186} INFO - Started process (PID=6941) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:24:20.798+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:24:20.800+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:20.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:24:20.808+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:24:20.823+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:20.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:24:20.835+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:20.835+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:24:20.857+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-03-26T17:25:11.252+0000] {processor.py:186} INFO - Started process (PID=6997) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:25:11.254+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:25:11.256+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:11.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:25:11.264+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:25:11.279+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:11.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:25:11.291+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:11.291+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:25:11.310+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-03-26T17:26:00.086+0000] {processor.py:186} INFO - Started process (PID=7048) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:26:00.088+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:26:00.090+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:00.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:26:00.099+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:26:00.114+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:00.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:26:00.127+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:00.126+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:26:00.150+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2025-03-26T17:26:51.408+0000] {processor.py:186} INFO - Started process (PID=7100) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:26:51.410+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:26:51.412+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:51.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:26:51.420+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:26:51.435+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:51.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:26:51.446+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:51.446+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:26:51.469+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-03-26T17:27:43.486+0000] {processor.py:186} INFO - Started process (PID=7200) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:27:43.488+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:27:43.490+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:43.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:27:43.498+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:27:43.513+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:43.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:27:43.524+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:43.524+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:27:43.548+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.068 seconds
+[2025-03-26T17:28:34.595+0000] {processor.py:186} INFO - Started process (PID=7254) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:28:34.596+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:28:34.598+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:34.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:28:34.607+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:28:34.621+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:34.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:28:34.633+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:34.633+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:28:34.655+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-03-26T17:29:25.055+0000] {processor.py:186} INFO - Started process (PID=7306) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:29:25.056+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:29:25.058+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:25.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:29:25.066+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:29:25.082+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:25.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:29:25.093+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:25.093+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:29:25.115+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-03-26T17:30:13.527+0000] {processor.py:186} INFO - Started process (PID=7362) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:30:13.529+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:30:13.531+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:13.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:30:13.539+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:30:13.554+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:13.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:30:13.567+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:13.567+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:30:13.591+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2025-03-26T17:31:03.012+0000] {processor.py:186} INFO - Started process (PID=7413) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:31:03.014+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:31:03.016+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:03.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:31:03.025+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:31:03.042+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:03.042+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:31:03.055+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:03.055+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:31:03.077+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.071 seconds
+[2025-03-26T17:31:54.632+0000] {processor.py:186} INFO - Started process (PID=7466) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:31:54.634+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:31:54.636+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:54.635+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:31:54.644+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:31:54.660+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:54.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:31:54.671+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:54.671+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:31:54.693+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-03-26T17:32:46.238+0000] {processor.py:186} INFO - Started process (PID=7559) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:32:46.239+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:32:46.242+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:46.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:32:46.250+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:32:46.266+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:46.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:32:46.278+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:46.278+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:32:46.301+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2025-03-26T17:33:37.870+0000] {processor.py:186} INFO - Started process (PID=7613) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:33:37.872+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:33:37.874+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:37.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:33:37.883+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:33:37.898+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:37.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:33:37.909+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:37.909+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:33:37.932+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-03-26T17:34:28.272+0000] {processor.py:186} INFO - Started process (PID=7665) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:34:28.273+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:34:28.275+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:28.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:34:28.283+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:34:28.299+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:28.299+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:34:28.311+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:28.310+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:34:28.332+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-03-26T17:35:22.024+0000] {processor.py:186} INFO - Started process (PID=7726) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:35:22.025+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:35:22.027+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:22.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:35:22.036+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:35:22.052+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:22.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:35:22.064+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:22.064+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:35:22.085+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-03-26T17:36:15.065+0000] {processor.py:186} INFO - Started process (PID=7782) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:36:15.066+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-26T17:36:15.069+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:15.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:36:15.076+0000] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-26T17:36:15.093+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:15.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:36:15.105+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:15.105+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-26T17:36:15.127+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.068 seconds

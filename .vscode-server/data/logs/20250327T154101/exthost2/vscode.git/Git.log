@@ -1,0 +1,15 @@
+2025-03-27 15:43:38.017 [info] [main] Log level: Info
+2025-03-27 15:43:38.017 [info] [main] Validating found git in: "git"
+2025-03-27 15:43:38.017 [info] [main] Using git "2.43.0" from "git"
+2025-03-27 15:43:38.017 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-27 15:43:38.017 [info] > git rev-parse --show-toplevel [5ms]
+2025-03-27 15:43:38.017 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-27 15:43:38.017 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-27 15:43:38.457 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-27 15:43:38.457 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-27 15:44:03.905 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-27 15:44:03.905 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-27 16:37:24.014 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-27 16:37:24.014 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-27 16:44:18.158 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/ubuntu/youtube_learning". Error:Error: ENOENT: no such file or directory, realpath '/home/ubuntu/youtube_learning'
+2025-03-27 16:45:38.441 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/ubuntu/youtube_learning". Error:Error: ENOENT: no such file or directory, realpath '/home/ubuntu/youtube_learning'

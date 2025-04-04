@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "C:\\Anaconda3",
+    "git.openRepositoryInParentFolders": "never",
+    "remote.SSH.remotePlatform": {
+        "ec2_customer_churn_yml": "linux"
+    }
+}

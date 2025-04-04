@@ -1,0 +1,275 @@
+[2025-03-26T17:13:57.175+0000] {processor.py:186} INFO - Started process (PID=6297) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:13:57.175+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:13:57.177+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:57.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:13:57.180+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:57.180+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:13:57.181+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:57.181+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:13:57.181+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:13:57.194+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-03-26T17:15:01.277+0000] {processor.py:186} INFO - Started process (PID=6360) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:15:01.279+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:15:01.280+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:01.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:15:01.285+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:01.284+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:15:01.285+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:01.285+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:15:01.285+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:15:01.297+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2025-03-26T17:15:56.862+0000] {processor.py:186} INFO - Started process (PID=6421) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:15:56.863+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:15:56.865+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:56.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:15:56.869+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:56.868+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:15:56.869+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:56.869+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:15:56.869+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:15:56.880+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-03-26T17:16:55.689+0000] {processor.py:186} INFO - Started process (PID=6478) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:16:55.690+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:16:55.692+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:55.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:16:55.695+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:55.695+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:16:55.695+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:55.695+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:16:55.696+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:16:55.707+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-03-26T17:17:50.135+0000] {processor.py:186} INFO - Started process (PID=6540) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:17:50.137+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:17:50.139+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:50.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:17:50.142+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:50.142+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:17:50.143+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:50.142+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:17:50.143+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:17:50.153+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-03-26T17:18:40.893+0000] {processor.py:186} INFO - Started process (PID=6592) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:18:40.895+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:18:40.897+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:40.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:18:40.900+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:40.900+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:18:40.901+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:40.901+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:18:40.901+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:18:40.912+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-03-26T17:19:38.332+0000] {processor.py:186} INFO - Started process (PID=6646) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:19:38.333+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:19:38.336+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:38.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:19:38.339+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:38.338+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:19:38.339+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:38.339+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:19:38.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:19:38.476+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.149 seconds
+[2025-03-26T17:20:37.364+0000] {processor.py:186} INFO - Started process (PID=6710) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:20:37.367+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:20:37.368+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:37.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:20:37.372+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:37.371+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:20:37.372+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:37.372+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:20:37.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:20:37.383+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-03-26T17:21:30.283+0000] {processor.py:186} INFO - Started process (PID=6765) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:21:30.285+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:21:30.287+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:30.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:21:30.289+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:30.289+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:21:30.291+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:30.290+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:21:30.291+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:21:30.301+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-03-26T17:22:21.960+0000] {processor.py:186} INFO - Started process (PID=6819) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:22:21.961+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:22:21.963+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:21.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:22:21.967+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:21.966+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:22:21.967+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:21.967+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:22:21.968+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:22:21.978+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-03-26T17:23:13.799+0000] {processor.py:186} INFO - Started process (PID=6871) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:23:13.801+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:23:13.803+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:13.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:23:13.806+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:13.805+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:23:13.806+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:13.806+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:23:13.806+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:23:13.818+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-03-26T17:24:05.999+0000] {processor.py:186} INFO - Started process (PID=6925) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:24:06.001+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:24:06.003+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:06.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:24:06.006+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:06.005+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:24:06.006+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:06.006+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:24:06.006+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:24:06.017+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-03-26T17:24:58.511+0000] {processor.py:186} INFO - Started process (PID=6978) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:24:58.513+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:24:58.516+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:58.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:24:58.519+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:58.518+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:24:58.519+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:58.519+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:24:58.519+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:24:58.531+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2025-03-26T17:26:10.704+0000] {processor.py:186} INFO - Started process (PID=7060) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:26:10.706+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:26:10.708+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:10.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:26:10.712+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:10.711+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:26:10.712+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:10.712+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:26:10.712+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:26:10.723+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-03-26T17:27:05.728+0000] {processor.py:186} INFO - Started process (PID=7114) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:27:05.729+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:27:05.732+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:05.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:27:05.735+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:05.735+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:27:05.735+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:05.735+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:27:05.736+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:27:05.746+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-03-26T17:28:18.315+0000] {processor.py:186} INFO - Started process (PID=7237) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:28:18.317+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:28:18.319+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:18.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:28:18.323+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:18.321+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:28:18.323+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:18.323+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:28:18.323+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:28:18.333+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-03-26T17:29:09.216+0000] {processor.py:186} INFO - Started process (PID=7291) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:29:09.218+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:29:09.219+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:09.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:29:09.223+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:09.223+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:29:09.224+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:09.224+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:29:09.224+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:29:09.235+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-03-26T17:29:59.987+0000] {processor.py:186} INFO - Started process (PID=7344) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:29:59.989+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:29:59.991+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:59.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:29:59.995+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:59.994+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:29:59.995+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:59.995+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:29:59.995+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:30:00.006+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-03-26T17:31:14.439+0000] {processor.py:186} INFO - Started process (PID=7425) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:31:14.441+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:31:14.443+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:14.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:31:14.448+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:14.446+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:31:14.448+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:14.448+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:31:14.448+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:31:14.459+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2025-03-26T17:32:06.073+0000] {processor.py:186} INFO - Started process (PID=7490) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:32:06.074+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:32:06.075+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:06.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:32:06.080+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:06.079+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:32:06.080+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:06.080+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:32:06.080+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:32:06.091+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2025-03-26T17:32:58.216+0000] {processor.py:186} INFO - Started process (PID=7571) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:32:58.218+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:32:58.221+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:58.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:32:58.225+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:58.224+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:32:58.225+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:58.225+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:32:58.226+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:32:58.236+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2025-03-26T17:33:49.892+0000] {processor.py:186} INFO - Started process (PID=7625) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:33:49.894+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:33:49.896+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:49.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:33:49.900+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:49.899+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:33:49.900+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:49.900+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:33:49.900+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:33:49.911+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-03-26T17:34:40.842+0000] {processor.py:186} INFO - Started process (PID=7677) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:34:40.844+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:34:40.846+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:40.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:34:40.849+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:40.849+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:34:40.850+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:40.850+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:34:40.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:34:40.862+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2025-03-26T17:35:33.219+0000] {processor.py:186} INFO - Started process (PID=7738) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:35:33.220+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:35:33.222+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:33.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:35:33.226+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:33.225+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:35:33.226+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:33.226+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:35:33.226+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:35:33.236+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2025-03-26T17:36:26.502+0000] {processor.py:186} INFO - Started process (PID=7794) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:36:26.504+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-03-26T17:36:26.506+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:26.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:36:26.509+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:26.509+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-03-26T17:36:26.509+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:26.509+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-03-26T17:36:26.510+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-03-26T17:36:26.520+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds

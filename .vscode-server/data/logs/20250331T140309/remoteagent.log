@@ -1,0 +1,78 @@
+2025-03-31 14:03:09.194 [info] 
+
+
+
+
+2025-03-31 14:03:09.214 [info] Extension host agent started.
+2025-03-31 14:03:09.632 [info] [<unknown>][df4e94ba][ExtensionHostConnection] New connection established.
+2025-03-31 14:03:09.634 [info] [<unknown>][85ba220f][ManagementConnection] New connection established.
+2025-03-31 14:03:09.705 [info] [<unknown>][df4e94ba][ExtensionHostConnection] <2701> Launched Extension Host Process.
+2025-03-31 14:03:15.590 [error] [<unknown>][5a3e9c77][ExtensionHostConnection] Unknown reconnection token (never seen).
+2025-03-31 14:03:15.591 [error] [<unknown>][31614434][ManagementConnection] Unknown reconnection token (never seen).
+2025-03-31 14:03:37.085 [info] [<unknown>][7cced030][ExtensionHostConnection] New connection established.
+2025-03-31 14:03:37.088 [info] [<unknown>][7cced030][ExtensionHostConnection] <2924> Launched Extension Host Process.
+2025-03-31 14:03:37.089 [info] [<unknown>][7640e6f2][ManagementConnection] New connection established.
+2025-03-31 14:04:26.462 [info] [<unknown>][1d64ce7c][ManagementConnection] New connection established.
+2025-03-31 14:04:26.462 [info] [<unknown>][ab12f151][ExtensionHostConnection] New connection established.
+2025-03-31 14:04:26.465 [info] [<unknown>][ab12f151][ExtensionHostConnection] <3059> Launched Extension Host Process.
+2025-03-31 14:08:09.215 [info] New EH opened, aborting shutdown
+2025-03-31 15:43:41.731 [info] [<unknown>][85ba220f][ManagementConnection] The client has reconnected.
+2025-03-31 15:43:42.941 [error] CodeExpectedError: Could not find pty 33 on pty host
+    at I.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateIcon (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7772)
+    at O.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-31 15:43:42.942 [error] CodeExpectedError: Could not find pty 33 on pty host
+    at I.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-31 15:43:42.942 [error] CodeExpectedError: Could not find pty 33 on pty host
+    at I.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-31 15:43:42.942 [error] CodeExpectedError: Could not find pty 33 on pty host
+    at I.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-31 15:43:50.496 [info] [<unknown>][df4e94ba][ExtensionHostConnection] The client has reconnected.
+2025-03-31 15:58:59.469 [info] [<unknown>][1d64ce7c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-03-31 15:59:03.565 [info] [<unknown>][7640e6f2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

@@ -1,0 +1,197 @@
+[2025-03-26T17:13:33.066+0000] {processor.py:186} INFO - Started process (PID=6278) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:13:33.067+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:13:33.069+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:13:33.079+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:13:33.193+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.192+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-03-26T17:13:33.206+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.206+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-03-26T17:13:33.216+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.216+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-03-26T17:13:33.233+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.232+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-03-26T17:13:33.244+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.244+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-03-26T17:13:33.256+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.256+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-03-26T17:13:33.268+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.268+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-03-26T17:13:33.268+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:13:33.279+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.278+0000] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-03-26T17:13:33.279+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:13:33.279+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:13:33.302+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.241 seconds
+[2025-03-26T17:14:38.789+0000] {processor.py:186} INFO - Started process (PID=6335) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:14:38.791+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:14:38.793+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:38.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:14:38.804+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:14:38.823+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:38.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:14:38.835+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:14:38.835+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:14:38.858+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-03-26T17:15:34.441+0000] {processor.py:186} INFO - Started process (PID=6398) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:15:34.444+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:15:34.446+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:34.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:15:34.457+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:15:34.477+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:34.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:15:34.488+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:15:34.487+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:15:34.510+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2025-03-26T17:16:26.869+0000] {processor.py:186} INFO - Started process (PID=6451) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:16:26.871+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:16:26.872+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:26.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:16:26.883+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:16:26.904+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:26.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:16:26.916+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:16:26.916+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:16:26.938+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2025-03-26T17:17:20.189+0000] {processor.py:186} INFO - Started process (PID=6509) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:17:20.190+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:17:20.192+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:20.192+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:17:20.204+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:17:20.224+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:20.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:17:20.235+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:17:20.235+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:17:20.258+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2025-03-26T17:18:12.889+0000] {processor.py:186} INFO - Started process (PID=6563) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:18:12.891+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:18:12.893+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:12.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:18:12.903+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:18:12.923+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:12.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:18:12.935+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:18:12.935+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:18:12.957+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.073 seconds
+[2025-03-26T17:19:07.537+0000] {processor.py:186} INFO - Started process (PID=6619) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:19:07.540+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:19:07.541+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:07.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:19:07.552+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:19:07.572+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:07.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:19:07.584+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:19:07.584+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:19:07.720+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.188 seconds
+[2025-03-26T17:20:07.617+0000] {processor.py:186} INFO - Started process (PID=6681) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:20:07.620+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:20:07.622+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:07.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:20:07.633+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:20:07.655+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:07.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:20:07.667+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:20:07.667+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:20:07.691+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.079 seconds
+[2025-03-26T17:21:04.197+0000] {processor.py:186} INFO - Started process (PID=6738) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:21:04.199+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:21:04.201+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:04.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:21:04.213+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:21:04.233+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:04.233+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:21:04.245+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:04.245+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:21:04.268+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2025-03-26T17:21:57.017+0000] {processor.py:186} INFO - Started process (PID=6792) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:21:57.020+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:21:57.021+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:57.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:21:57.033+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:21:57.053+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:57.053+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:21:57.064+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:21:57.064+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:21:57.086+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-03-26T17:22:49.571+0000] {processor.py:186} INFO - Started process (PID=6846) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:22:49.573+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:22:49.575+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:49.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:22:49.587+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:22:49.607+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:49.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:22:49.618+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:22:49.618+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:22:49.639+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.073 seconds
+[2025-03-26T17:23:41.225+0000] {processor.py:186} INFO - Started process (PID=6899) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:23:41.226+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:23:41.228+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:41.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:23:41.239+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:23:41.260+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:41.260+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:23:41.273+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:23:41.272+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:23:41.294+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-03-26T17:24:32.233+0000] {processor.py:186} INFO - Started process (PID=6952) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:24:32.236+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:24:32.238+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:32.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:24:32.249+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:24:32.268+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:32.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:24:32.282+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:24:32.282+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:24:32.303+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-03-26T17:25:21.548+0000] {processor.py:186} INFO - Started process (PID=7008) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:25:21.550+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:25:21.552+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:21.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:25:21.563+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:25:21.584+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:21.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:25:21.595+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:25:21.595+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:25:21.618+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2025-03-26T17:26:09.693+0000] {processor.py:186} INFO - Started process (PID=7059) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:26:09.694+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:26:09.696+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:09.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:26:09.707+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:26:09.728+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:09.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:26:09.739+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:26:09.739+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:26:09.763+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2025-03-26T17:27:02.299+0000] {processor.py:186} INFO - Started process (PID=7111) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:27:02.301+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:27:02.302+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:02.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:27:02.315+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:27:02.337+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:02.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:27:02.350+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:02.350+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:27:02.374+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.081 seconds
+[2025-03-26T17:27:54.931+0000] {processor.py:186} INFO - Started process (PID=7211) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:27:54.933+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:27:54.935+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:54.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:27:54.946+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:27:54.967+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:54.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:27:54.978+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:27:54.978+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:27:55.000+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-03-26T17:28:45.419+0000] {processor.py:186} INFO - Started process (PID=7265) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:28:45.421+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:28:45.423+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:45.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:28:45.434+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:28:45.454+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:45.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:28:45.466+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:28:45.466+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:28:45.488+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-03-26T17:29:35.349+0000] {processor.py:186} INFO - Started process (PID=7317) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:29:35.351+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:29:35.353+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:35.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:29:35.364+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:29:35.385+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:35.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:29:35.396+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:29:35.396+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:29:35.419+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2025-03-26T17:30:23.691+0000] {processor.py:186} INFO - Started process (PID=7373) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:30:23.692+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:30:23.694+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:23.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:30:23.706+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:30:23.726+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:23.726+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:30:23.739+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:30:23.739+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:30:23.761+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2025-03-26T17:31:13.302+0000] {processor.py:186} INFO - Started process (PID=7424) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:31:13.304+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:31:13.306+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:13.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:31:13.317+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:31:13.340+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:13.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:31:13.352+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:31:13.352+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:31:13.374+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2025-03-26T17:32:04.935+0000] {processor.py:186} INFO - Started process (PID=7489) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:32:04.937+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:32:04.939+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:04.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:32:04.950+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:32:04.970+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:04.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:32:04.982+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:04.981+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:32:05.005+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-03-26T17:32:57.627+0000] {processor.py:186} INFO - Started process (PID=7570) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:32:57.629+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:32:57.631+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:57.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:32:57.642+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:32:57.663+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:57.663+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:32:57.675+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:32:57.675+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:32:57.698+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2025-03-26T17:33:49.175+0000] {processor.py:186} INFO - Started process (PID=7624) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:33:49.177+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:33:49.179+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:49.178+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:33:49.190+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:33:49.210+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:49.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:33:49.222+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:33:49.222+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:33:49.245+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-03-26T17:34:39.704+0000] {processor.py:186} INFO - Started process (PID=7676) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:34:39.706+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:34:39.708+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:39.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:34:39.720+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:34:39.740+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:39.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:34:39.752+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:34:39.752+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:34:39.773+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2025-03-26T17:35:32.780+0000] {processor.py:186} INFO - Started process (PID=7737) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:35:32.781+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:35:32.782+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:32.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:35:32.794+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:35:32.813+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:32.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:35:32.825+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:35:32.825+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:35:32.847+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.073 seconds
+[2025-03-26T17:36:25.366+0000] {processor.py:186} INFO - Started process (PID=7793) to work on /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:36:25.367+0000] {processor.py:914} INFO - Processing file /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-26T17:36:25.370+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:25.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:36:25.381+0000] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-26T17:36:25.403+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:25.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-26T17:36:25.414+0000] {logging_mixin.py:190} INFO - [2025-03-26T17:36:25.414+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-26T17:36:25.437+0000] {processor.py:208} INFO - Processing /home/ubuntu/customer_churn_youtube_venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds

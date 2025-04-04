@@ -1,0 +1,65 @@
+2025-03-27 15:41:01.060 [info] 
+
+
+
+
+2025-03-27 15:41:01.072 [info] Extension host agent started.
+2025-03-27 15:41:01.120 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-03-27 15:41:01.133 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-03-27 15:41:01.592 [info] [<unknown>][96927e38][ManagementConnection] New connection established.
+2025-03-27 15:41:01.625 [info] [<unknown>][94677e83][ExtensionHostConnection] New connection established.
+2025-03-27 15:41:01.698 [info] [<unknown>][94677e83][ExtensionHostConnection] <1390> Launched Extension Host Process.
+2025-03-27 15:43:22.839 [info] [<unknown>][96927e38][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 15:43:22.865 [info] [<unknown>][94677e83][ExtensionHostConnection] <1390> Extension Host Process exited with code: 0, signal: null.
+2025-03-27 15:43:22.865 [info] Cancelling previous shutdown timeout
+2025-03-27 15:43:22.866 [info] Last EH closed, waiting before shutting down
+2025-03-27 15:43:28.701 [info] [<unknown>][1403364c][ManagementConnection] New connection established.
+2025-03-27 15:43:28.701 [info] [<unknown>][ad54a0d0][ExtensionHostConnection] New connection established.
+2025-03-27 15:43:28.704 [info] [<unknown>][ad54a0d0][ExtensionHostConnection] <1617> Launched Extension Host Process.
+2025-03-27 15:48:22.868 [info] New EH opened, aborting shutdown
+2025-03-27 15:48:22.870 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/server-main.js:183:1060)
+    at process.emit (node:events:530:35)
+2025-03-27 16:43:29.122 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /home/ubuntu/youtube_learning)
+2025-03-27 16:43:55.491 [info] [<unknown>][44014544][ManagementConnection] New connection established.
+2025-03-27 16:43:55.494 [info] [<unknown>][6f2c49aa][ExtensionHostConnection] New connection established.
+2025-03-27 16:43:55.498 [info] [<unknown>][6f2c49aa][ExtensionHostConnection] <6226> Launched Extension Host Process.
+2025-03-27 16:44:18.056 [info] [<unknown>][44014544][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 16:44:18.087 [info] [<unknown>][6f2c49aa][ExtensionHostConnection] <6226> Extension Host Process exited with code: 0, signal: null.
+2025-03-27 16:44:25.002 [info] [<unknown>][4786e46a][ManagementConnection] New connection established.
+2025-03-27 16:44:25.003 [info] [<unknown>][7140976c][ExtensionHostConnection] New connection established.
+2025-03-27 16:44:25.007 [info] [<unknown>][7140976c][ExtensionHostConnection] <6386> Launched Extension Host Process.
+2025-03-27 16:45:08.418 [info] [<unknown>][833896ef][ExtensionHostConnection] New connection established.
+2025-03-27 16:45:08.418 [info] [<unknown>][4c44d73f][ManagementConnection] New connection established.
+2025-03-27 16:45:08.422 [info] [<unknown>][833896ef][ExtensionHostConnection] <6591> Launched Extension Host Process.
+2025-03-27 16:45:38.348 [info] [<unknown>][4c44d73f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 16:45:38.374 [info] [<unknown>][833896ef][ExtensionHostConnection] <6591> Extension Host Process exited with code: 0, signal: null.
+2025-03-27 16:45:45.797 [info] [<unknown>][29386ef0][ManagementConnection] New connection established.
+2025-03-27 16:45:45.798 [info] [<unknown>][219e5c0a][ExtensionHostConnection] New connection established.
+2025-03-27 16:45:45.801 [info] [<unknown>][219e5c0a][ExtensionHostConnection] <6755> Launched Extension Host Process.
+2025-03-27 16:46:20.923 [info] [<unknown>][29386ef0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 16:46:20.944 [info] [<unknown>][4786e46a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 16:46:20.959 [info] [<unknown>][219e5c0a][ExtensionHostConnection] <6755> Extension Host Process exited with code: 0, signal: null.
+2025-03-27 16:46:20.996 [info] [<unknown>][7140976c][ExtensionHostConnection] <6386> Extension Host Process exited with code: 0, signal: null.
+2025-03-27 16:46:21.466 [info] [<unknown>][1403364c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 16:46:21.505 [info] [<unknown>][ad54a0d0][ExtensionHostConnection] <1617> Extension Host Process exited with code: 0, signal: null.
+2025-03-27 16:46:21.506 [info] Last EH closed, waiting before shutting down
+2025-03-27 16:46:42.850 [info] [<unknown>][8470703e][ManagementConnection] New connection established.
+2025-03-27 16:46:42.853 [info] [<unknown>][9f5f083a][ExtensionHostConnection] New connection established.
+2025-03-27 16:46:42.857 [info] [<unknown>][9f5f083a][ExtensionHostConnection] <7153> Launched Extension Host Process.
+2025-03-27 16:46:43.109 [info] [<unknown>][f0ab0c93][ExtensionHostConnection] New connection established.
+2025-03-27 16:46:43.113 [info] [<unknown>][f0ab0c93][ExtensionHostConnection] <7164> Launched Extension Host Process.
+2025-03-27 16:46:43.114 [info] [<unknown>][23779c22][ManagementConnection] New connection established.
+2025-03-27 16:46:43.485 [info] [<unknown>][b54c013e][ExtensionHostConnection] New connection established.
+2025-03-27 16:46:43.485 [info] [<unknown>][16d63fd5][ManagementConnection] New connection established.
+2025-03-27 16:46:43.490 [info] [<unknown>][b54c013e][ExtensionHostConnection] <7176> Launched Extension Host Process.
+2025-03-27 16:46:52.793 [info] [<unknown>][23779c22][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 16:46:52.821 [info] [<unknown>][f0ab0c93][ExtensionHostConnection] <7164> Extension Host Process exited with code: 0, signal: null.
+2025-03-27 16:46:52.821 [info] Cancelling previous shutdown timeout
+2025-03-27 16:47:12.378 [info] [<unknown>][0df361a4][ManagementConnection] New connection established.
+2025-03-27 16:47:12.379 [info] [<unknown>][c5c58500][ExtensionHostConnection] New connection established.
+2025-03-27 16:47:12.384 [info] [<unknown>][c5c58500][ExtensionHostConnection] <7463> Launched Extension Host Process.
+2025-03-27 16:47:36.693 [info] [<unknown>][0df361a4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 16:47:36.724 [info] [<unknown>][c5c58500][ExtensionHostConnection] <7463> Extension Host Process exited with code: 0, signal: null.
+2025-03-27 16:47:41.592 [info] [<unknown>][8470703e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-27 16:47:41.620 [info] [<unknown>][9f5f083a][ExtensionHostConnection] <7153> Extension Host Process exited with code: 0, signal: null.
