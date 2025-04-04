@@ -1,0 +1,169 @@
+ import sys
+import logging
+from awsglue.transforms import *
+from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
+from awsglue.context import GlueContext
+from awsglue.job import Job
+from awsglue.dynamicframe import DynamicFrame
+from pyspark.sql.functions import current_date
+import boto3
+
+# Setup Logging
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+# Read job parameters
+glue_args = getResolvedOptions(sys.argv, [
+    'JOB_NAME',
+    'SOURCE_DB',
+    'SOURCE_TABLE',
+    'REDSHIFT_DB',
+    'REDSHIFT_TABLE',
+    'REDSHIFT_CONNECTION',
+    'REDSHIFT_CLUSTER_ID',
+    'REDSHIFT_DATABASE_USER',
+    'SNS_TOPIC',
+    'S3_SOURCE_PATH',
+    'S3_PROCESSED_PATH',
+    'BOOKMARK_KEY',
+    'REDSHIFT_REGION'
+])
+
+# Setup Glue Context
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
+job = Job(glueContext)
+job.init(glue_args['JOB_NAME'], glue_args)
+logger.info("Custom Glue ETL script has started")
+
+# SNS utility
+def send_sns(message):
+    logger.info(f"Sending SNS Notification: {message}")
+    sns = boto3.client('sns')
+    sns.publish(TopicArn=glue_args['SNS_TOPIC'], Message=message)
+
+try:
+    # Fetch Redshift table schema
+    logger.info("Fetching expected Redshift schema")
+    try:
+        redshift_data = boto3.client('redshift-data', region_name=glue_args['REDSHIFT_REGION'])
+        schema_sql = f"""
+            SELECT column_name 
+            FROM information_schema.columns 
+            WHERE table_name = '{glue_args['REDSHIFT_TABLE']}' 
+            ORDER BY ordinal_position
+        """
+        response = redshift_data.execute_statement(
+            ClusterIdentifier=glue_args['REDSHIFT_CLUSTER_ID'],
+            Database=glue_args['REDSHIFT_DB'],
+            DbUser=glue_args['REDSHIFT_DATABASE_USER'],
+            Sql=schema_sql
+        )
+        result = redshift_data.get_statement_result(Id=response['Id'])
+        expected_columns = set([record[0]['stringValue'] for record in result['Records']])
+        logger.info(f"Expected Columns: {expected_columns}")
+    except Exception as e:
+        msg = f"Failed to fetch Redshift schema: {e}"
+        logger.error(msg)
+        send_sns(msg)
+        raise
+
+    # Read source data
+    logger.info("Reading source data from Glue Catalog")
+    dyf_source = glueContext.create_dynamic_frame.from_catalog(
+        database=glue_args['SOURCE_DB'],
+        table_name=glue_args['SOURCE_TABLE'],
+        transformation_ctx="dyf_source"
+    )
+
+    # Drop unwanted fields
+    logger.info("Applying transformations")
+    dyf_transformed = dyf_source.drop_fields(['count'])
+
+    # Replace spaces in column names
+    for col in dyf_transformed.schema().fieldNames():
+        if ' ' in col:
+            dyf_transformed = dyf_transformed.rename_field(col, col.replace(' ', '_'))
+
+    # Convert BIGINT to INT
+    specs = [
+        (field.name, "cast:int")
+        for field in dyf_transformed.schema().fields
+        if str(field.dataType).lower() == "long"
+    ]
+    dyf_transformed = dyf_transformed.resolveChoice(specs=specs)
+
+    # Add load_date
+    logger.info("Adding partition column: load_date")
+    df_transformed = dyf_transformed.toDF().withColumn("load_date", current_date())
+    dyf_transformed = DynamicFrame.fromDF(df_transformed, glueContext, "dyf_transformed")
+
+    # Schema validation
+    logger.info("Validating schema against Redshift")
+    transformed_columns = set(dyf_transformed.schema().fieldNames())
+    missing = expected_columns - transformed_columns
+    unexpected = transformed_columns - expected_columns
+
+    if missing or unexpected:
+        message = f"Schema mismatch! Missing: {missing}, Unexpected: {unexpected}"
+        logger.warning(message)
+        send_sns(message)
+
+    # Apply schema evolution
+    dyf_transformed = dyf_transformed.resolveChoice(choice="make_cols", withConstraint="optional")
+
+    # Apply bookmarks
+    logger.info("Applying bookmarks for incremental loads")
+    dyf_filtered = glueContext.filter.apply(
+        frame=dyf_transformed,
+        f=lambda row: glue_args['BOOKMARK_KEY'] in row and row[glue_args['BOOKMARK_KEY']] is not None
+    )
+
+    # Write to Redshift
+    logger.info("Writing transformed data to Redshift")
+    glueContext.write_dynamic_frame.from_jdbc_conf(
+        frame=dyf_filtered,
+        catalog_connection=glue_args['REDSHIFT_CONNECTION'],
+        connection_options={
+            "dbtable": glue_args['REDSHIFT_TABLE'],
+            "database": glue_args['REDSHIFT_DB']
+        },
+        redshift_tmp_dir="{}/temp".format(glue_args['S3_PROCESSED_PATH'].rstrip('/'))
+
+    )
+    send_sns(f"Data successfully loaded to Redshift table: {glue_args['REDSHIFT_TABLE']}")
+
+    # Move processed files
+    def move_files():
+        logger.info("Moving processed files to 'processed' folder")
+        s3 = boto3.resource('s3')
+        src_bucket = glue_args['S3_SOURCE_PATH'].split('/')[2]
+        src_prefix = '/'.join(glue_args['S3_SOURCE_PATH'].split('/')[3:])
+        dst_prefix = glue_args['S3_PROCESSED_PATH'].split('/', 3)[-1]
+
+        bucket = s3.Bucket(src_bucket)
+        for obj in bucket.objects.filter(Prefix=src_prefix):
+            copy_src = {'Bucket': src_bucket, 'Key': obj.key}
+            bucket.copy(copy_src, dst_prefix + '/' + obj.key.split('/')[-1])
+            s3.Object(src_bucket, obj.key).delete()
+
+    move_files()
+    logger.info("Glue Job Completed Successfully")
+
+finally:
+    job.commit()
+
+# Optional test helpers
+#def test_schema_match(transformed_columns, expected_columns):
+ #   return expected_columns == transformed_columns
+
+#def test_transformations(dyf):
+ #   try:
+  #      df = dyf.toDF()
+   #     assert 'load_date' in df.columns
+    #    return True
+    #except Exception as e:
+     #   logger.error(f"Transformation test failed: {e}")
+      #  return False

@@ -1,0 +1,105 @@
+create table if not exists customer_churn
+(
+customerid VARCHAR(255),
+country VARCHAR(255),
+state VARCHAR(255),
+city VARCHAR(255),
+zip_code INT,
+lat_long DECIMAL(8,6),
+latitude DECIMAL(10,3),
+longitude DECIMAL(6,3),
+gender VARCHAR(50),
+senior_citizen VARCHAR(50),
+partner VARCHAR(50),
+dependents VARCHAR(50),
+tenure_months INT,
+phone_service VARCHAR(50),
+multiple_lines VARCHAR(50),
+internet_service VARCHAR(255),
+online_security VARCHAR(255),
+online_backup VARCHAR(50),
+device_protection VARCHAR(50),
+tech_support VARCHAR(50),
+streaming_tv VARCHAR(50),
+streaming_movies VARCHAR(50),
+contract VARCHAR(255),
+paperless_billing VARCHAR(50),
+payment_method VARCHAR(255),
+monthly_charges DECIMAL(10,2),
+total_charges DECIMAL(10,2),
+churn_label VARCHAR(50),
+churn_value INT,
+churn_score INT,
+cltv INT,
+churn_reason VARCHAR(255)  
+)
+DISTKEY (customerid) 
+SORTKEY (churn_score); 
+
+ANALYZE Compression customer_churn;
+
+Create table if not exists customer_churn_optimized
+(
+customerid VARCHAR(255) ENCODE ZSTD,
+country VARCHAR(255) ENCODE ZSTD,
+state VARCHAR(255) ENCODE ZSTD,
+city VARCHAR(255) ENCODE ZSTD,
+zip_code INT ENCODE AZ64,
+lat_long VARCHAR(255) ENCODE ZSTD,
+latitude DECIMAL(10,3) ENCODE RAW,
+longitude DECIMAL(6,3) ENCODE RAW,
+gender VARCHAR(50) ENCODE ZSTD,
+senior_citizen VARCHAR(50) ENCODE ZSTD,
+partner VARCHAR(50) ENCODE ZSTD,
+dependents VARCHAR(50) ENCODE ZSTD,
+tenure_months INT ENCODE AZ64,
+phone_service VARCHAR(50) ENCODE ZSTD,
+multiple_lines VARCHAR(50) ENCODE ZSTD,
+internet_service VARCHAR(255) ENCODE ZSTD,
+online_security VARCHAR(255) ENCODE ZSTD,
+online_backup VARCHAR(50) ENCODE ZSTD,
+device_protection VARCHAR(50) ENCODE ZSTD,
+tech_support VARCHAR(50) ENCODE ZSTD,
+streaming_tv VARCHAR(50) ENCODE ZSTD,
+streaming_movies VARCHAR(50) ENCODE ZSTD,
+contract VARCHAR(255) ENCODE ZSTD,
+paperless_billing VARCHAR(50) ENCODE ZSTD,
+payment_method VARCHAR(255) ENCODE ZSTD,
+monthly_charges DECIMAL(10,2) ENCODE AZ64,
+total_charges DECIMAL(10,2) ENCODE AZ64,
+churn_label VARCHAR(50) ENCODE ZSTD,
+churn_value INT ENCODE AZ64,
+churn_score INT ENCODE AZ64,
+cltv INT ENCODE AZ64,
+churn_reason VARCHAR(255) ENCODE ZSTD,
+ingestion_date DATE
+)
+DISTSTYLE AUTO
+SORTKEY AUTO;
+
+select * from customer_churn_optimized;
+select count(*) from customer_churn_optimized;
+
+
+SELECT * 
+        FROM information_schema.columns 
+        WHERE table_name = 'customer_churn_optimized' 
+        AND table_schema = 'public'
+        ORDER BY ordinal_position;
+
+
+alter table customer_churn_optimized add column load_date date;
+
+truncate table customer_churn_optimized;
+
+alter table customer_churn_optimized drop column year;
+alter table customer_churn_optimized drop column month;
+drop table customer_churn_optimized;
+
+alter table customer_churn_optimized ADD column lat_long_new VARCHAR(255) ENCODE ZSTD;
+alter table customer_churn_optimized drop column lat_long;
+Alter table customer_churn_optimized rename lat_long_new to lat_long;
+
+DELETE
+FROM customer_churn_optimized
+WHERE customerid LIKE 'DUMMY%';
